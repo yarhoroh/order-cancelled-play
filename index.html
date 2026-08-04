@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#12151b" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%238250BD'/%3E%3Cpath d='M4 12h24v3H4z' fill='%234D2D75'/%3E%3Ctext x='16' y='23' font-family='Arial' font-size='14' font-weight='900' fill='%23F0B23C' text-anchor='middle'%3EOB%3C/text%3E%3C/svg%3E" />
+    <title>Order Cancelled — the OMNIBOX siege</title>
+    <script type="module" crossorigin src="./assets/index-Bw_3iGej.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/phaser-0YPJO2g1.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-DUqiQARU.css">
+  </head>
+  <body>
+    <div id="app">
+      <!-- ══════════ LEFT COLUMN: ARSENAL ══════════ -->
+      <aside class="col col--left" id="col-arsenal">
+        <div class="brand">
+          <div class="brand__line1">ORDER</div>
+          <div class="brand__line2">CANCELLED!</div>
+          <div class="brand__sub">returns without receipt</div>
+          <div class="brand__spark"></div>
+        </div>
+
+        <section class="panel">
+          <h2 class="panel__title">
+            <span class="panel__title-deco"></span>ARSENAL<span class="panel__title-deco"></span>
+          </h2>
+          <div class="arsenal" id="arsenal-list"></div>
+        </section>
+
+        <div class="slogan" id="slogan">REFUND APPROVED!</div>
+      </aside>
+
+      <!-- ══════════ CENTRE: BATTLEFIELD ══════════ -->
+      <main class="col col--stage">
+        <header class="topbar">
+          <div class="chip">
+            <span class="chip__ico chip__ico--bolt">✜</span>
+            <span id="res-bolts">0</span>
+            <span class="chip__plus">+</span>
+          </div>
+          <div class="chip">
+            <span class="chip__ico chip__ico--coupon">✂</span>
+            <span id="res-coupons">0</span>
+            <span class="chip__plus">+</span>
+          </div>
+          <button class="icon-btn" id="btn-map" title="Map">🗺</button>
+          <button class="icon-btn" id="btn-settings" title="Settings">⚙</button>
+        </header>
+
+        <header class="scoreboard">
+          <div class="scoreboard__label">WAREHOUSES DOWN:</div>
+          <div class="scoreboard__value">
+            <span id="score-current">0</span><span class="scoreboard__slash">/</span
+            ><span id="score-total">0</span>
+          </div>
+          <div class="scoreboard__record">
+            <span class="star">★</span> BEST: <span id="score-record">0</span>
+          </div>
+        </header>
+
+        <div id="canvas-host" class="canvas-host"></div>
+
+        <footer class="controls">
+          <button class="btn btn--ghost" id="btn-boost">
+            <span class="btn__ico">⚡</span>
+            <span class="btn__txt">SPEED<b id="boost-mult">(x1)</b></span>
+          </button>
+          <button class="btn btn--primary" id="btn-launch">
+            <span class="btn__ico">✸</span><span class="btn__txt">FIRE!</span>
+          </button>
+          <button class="btn btn--ghost" id="btn-camera">
+            <span class="btn__ico">◎</span><span class="btn__txt">CAMERA</span>
+          </button>
+          <div class="attempts">
+            <span class="attempts__label">You have <b>0</b> shots left</span>
+            <div class="attempts__hearts" id="attempts-hearts"></div>
+          </div>
+        </footer>
+      </main>
+
+      <!-- ══════════ SLIDE-OUT CAMPAIGN MAP ══════════ -->
+      <div class="scrim" id="scrim" hidden></div>
+      <aside class="drawer" id="col-map">
+        <button class="drawer__close" id="btn-map-close" title="Close">✕</button>
+
+        <section class="panel panel--map">
+          <h2 class="panel__title panel__title--ribbon">MAP OF WAREHOUSIA</h2>
+          <div class="mapwrap">
+            <svg class="map-links" id="map-links" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+            <div class="map-grid" id="map-nodes"></div>
+            <div class="map-watermark">WAREHOUSIA</div>
+          </div>
+          <div class="progress">
+            <div class="progress__label">CANCELLATION PROGRESS</div>
+            <div class="progress__track">
+              <div class="progress__fill" id="progress-fill"></div>
+            </div>
+            <div class="progress__pct" id="progress-pct">0%</div>
+          </div>
+        </section>
+      </aside>
+
+      <!-- mobile navigation -->
+      <nav class="tabbar" id="tabbar">
+        <button class="tabbar__btn" data-tab="arsenal">ARSENAL</button>
+        <button class="tabbar__btn is-active" data-tab="stage">BATTLE</button>
+      </nav>
+    </div>
+
+    <!-- ══════════ START SPLASH ══════════ -->
+    <div class="splash" id="splash" hidden>
+      <img id="splash-img" src="startpage.png" alt="" />
+      <div class="splash__hint" id="splash-hint">click anywhere</div>
+    </div>
+
+    <!-- ══════════ OVERLAYS ══════════ -->
+    <div class="overlay" id="overlay" hidden>
+      <div class="dialog" id="dialog"></div>
+    </div>
+
+  </body>
+</html>

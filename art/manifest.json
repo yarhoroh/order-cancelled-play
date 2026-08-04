@@ -1,0 +1,887 @@
+{
+  "palette": {
+    "ink": "#1B1420",
+    "ink_soft": "#2E2438",
+    "omnibox_dark": "#4D2D75",
+    "omnibox": "#8250BD",
+    "omnibox_light": "#B489E8",
+    "amber": "#F0B23C",
+    "amber_dark": "#B87A18",
+    "amber_light": "#FFD98A",
+    "grey_dark": "#3E434C",
+    "grey": "#6B7280",
+    "grey_light": "#A9B1BD",
+    "white": "#F5F1E8",
+    "cardboard": "#C08A4E",
+    "cardboard_dark": "#8A5C2E",
+    "cardboard_light": "#E0B681",
+    "fire_core": "#FFF6D0",
+    "fire_hot": "#FFC93C",
+    "fire": "#F2731F",
+    "fire_dark": "#C43A1B",
+    "smoke": "#7A7484",
+    "smoke_dark": "#4A4550",
+    "smoke_light": "#B8B2C0",
+    "grass": "#6E9B3A",
+    "grass_dark": "#4A6D26",
+    "grass_light": "#97C255",
+    "dirt": "#6B4A2E",
+    "dirt_dark": "#4A321E",
+    "sky_top": "#2F7FC4",
+    "sky_mid": "#6FB4E4",
+    "sky_low": "#CFE7F5",
+    "hill_far": "#6E8794",
+    "hill_near": "#4E7A3C",
+    "wood": "#A9773F",
+    "wood_dark": "#6E4A22",
+    "steel": "#8C97A6",
+    "steel_dark": "#58616E",
+    "concrete": "#B9B2A4",
+    "concrete_dark": "#7E786C",
+    "red": "#C6402F",
+    "red_dark": "#8A2618"
+  },
+  "notes": "All art is fictional parody. Villain corp = OMNIBOX (purple, OB mark). Map country = Warehousia. Player side = amber consumer resistance. No real brands, flags, places, people or weapons. Enemies are robots. SVGs have a viewBox and no width/height - load with Phaser load.svg({width,height}) using w/h below.",
+  "sprites": [
+    {
+      "key": "bot_idle_0",
+      "file": "bot/idle_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_idle_1",
+      "file": "bot/idle_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_idle_2",
+      "file": "bot/idle_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_idle_3",
+      "file": "bot/idle_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_run_0",
+      "file": "bot/run_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_run_1",
+      "file": "bot/run_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_run_2",
+      "file": "bot/run_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_run_3",
+      "file": "bot/run_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_run_4",
+      "file": "bot/run_4.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_run_5",
+      "file": "bot/run_5.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_panic_0",
+      "file": "bot/panic_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_panic_1",
+      "file": "bot/panic_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_panic_2",
+      "file": "bot/panic_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_panic_3",
+      "file": "bot/panic_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_fly_0",
+      "file": "bot/fly_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_fly_1",
+      "file": "bot/fly_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_fly_2",
+      "file": "bot/fly_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_fly_3",
+      "file": "bot/fly_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_pop_0",
+      "file": "bot/pop_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_pop_1",
+      "file": "bot/pop_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_pop_2",
+      "file": "bot/pop_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_pop_3",
+      "file": "bot/pop_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_pop_4",
+      "file": "bot/pop_4.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_burn_0",
+      "file": "bot/burn_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_burn_1",
+      "file": "bot/burn_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_burn_2",
+      "file": "bot/burn_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_burn_3",
+      "file": "bot/burn_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "boom_small_0",
+      "file": "fx/boom_small_0.svg",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "key": "boom_small_1",
+      "file": "fx/boom_small_1.svg",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "key": "boom_small_2",
+      "file": "fx/boom_small_2.svg",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "key": "boom_small_3",
+      "file": "fx/boom_small_3.svg",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "key": "boom_small_4",
+      "file": "fx/boom_small_4.svg",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "key": "boom_small_5",
+      "file": "fx/boom_small_5.svg",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "key": "boom_small_6",
+      "file": "fx/boom_small_6.svg",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "key": "boom_big_0",
+      "file": "fx/boom_big_0.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "boom_big_1",
+      "file": "fx/boom_big_1.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "boom_big_2",
+      "file": "fx/boom_big_2.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "boom_big_3",
+      "file": "fx/boom_big_3.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "boom_big_4",
+      "file": "fx/boom_big_4.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "boom_big_5",
+      "file": "fx/boom_big_5.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "boom_big_6",
+      "file": "fx/boom_big_6.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "boom_big_7",
+      "file": "fx/boom_big_7.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "boom_big_8",
+      "file": "fx/boom_big_8.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "shockwave_0",
+      "file": "fx/shockwave_0.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "shockwave_1",
+      "file": "fx/shockwave_1.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "shockwave_2",
+      "file": "fx/shockwave_2.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "shockwave_3",
+      "file": "fx/shockwave_3.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "shockwave_4",
+      "file": "fx/shockwave_4.svg",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "key": "flame_small_0",
+      "file": "fx/flame_small_0.svg",
+      "w": 48,
+      "h": 64
+    },
+    {
+      "key": "flame_small_1",
+      "file": "fx/flame_small_1.svg",
+      "w": 48,
+      "h": 64
+    },
+    {
+      "key": "flame_small_2",
+      "file": "fx/flame_small_2.svg",
+      "w": 48,
+      "h": 64
+    },
+    {
+      "key": "flame_small_3",
+      "file": "fx/flame_small_3.svg",
+      "w": 48,
+      "h": 64
+    },
+    {
+      "key": "flame_small_4",
+      "file": "fx/flame_small_4.svg",
+      "w": 48,
+      "h": 64
+    },
+    {
+      "key": "flame_small_5",
+      "file": "fx/flame_small_5.svg",
+      "w": 48,
+      "h": 64
+    },
+    {
+      "key": "flame_big_0",
+      "file": "fx/flame_big_0.svg",
+      "w": 96,
+      "h": 128
+    },
+    {
+      "key": "flame_big_1",
+      "file": "fx/flame_big_1.svg",
+      "w": 96,
+      "h": 128
+    },
+    {
+      "key": "flame_big_2",
+      "file": "fx/flame_big_2.svg",
+      "w": 96,
+      "h": 128
+    },
+    {
+      "key": "flame_big_3",
+      "file": "fx/flame_big_3.svg",
+      "w": 96,
+      "h": 128
+    },
+    {
+      "key": "flame_big_4",
+      "file": "fx/flame_big_4.svg",
+      "w": 96,
+      "h": 128
+    },
+    {
+      "key": "flame_big_5",
+      "file": "fx/flame_big_5.svg",
+      "w": 96,
+      "h": 128
+    },
+    {
+      "key": "smoke_puff_0",
+      "file": "fx/smoke_puff_0.svg",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "key": "smoke_puff_1",
+      "file": "fx/smoke_puff_1.svg",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "key": "smoke_puff_2",
+      "file": "fx/smoke_puff_2.svg",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "key": "smoke_puff_3",
+      "file": "fx/smoke_puff_3.svg",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "key": "smoke_puff_4",
+      "file": "fx/smoke_puff_4.svg",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "key": "smoke_puff_5",
+      "file": "fx/smoke_puff_5.svg",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "key": "ember_0",
+      "file": "fx/ember_0.svg",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "key": "ember_1",
+      "file": "fx/ember_1.svg",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "key": "ember_2",
+      "file": "fx/ember_2.svg",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "key": "debris_concrete_a",
+      "file": "debris/concrete_a.svg",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "key": "debris_concrete_b",
+      "file": "debris/concrete_b.svg",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "key": "debris_concrete_c",
+      "file": "debris/concrete_c.svg",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "key": "debris_steel_a",
+      "file": "debris/steel_a.svg",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "key": "debris_steel_b",
+      "file": "debris/steel_b.svg",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "key": "debris_wood_a",
+      "file": "debris/wood_a.svg",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "key": "debris_wood_b",
+      "file": "debris/wood_b.svg",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "key": "debris_parcel_a",
+      "file": "debris/parcel_a.svg",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "key": "debris_parcel_b",
+      "file": "debris/parcel_b.svg",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "key": "dust_puff",
+      "file": "debris/dust_puff.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "spark",
+      "file": "debris/spark.svg",
+      "w": 12,
+      "h": 12
+    },
+    {
+      "key": "scorch_mark",
+      "file": "debris/scorch_mark.svg",
+      "w": 96,
+      "h": 48
+    },
+    {
+      "key": "proj_courier",
+      "file": "proj/courier.svg",
+      "w": 96,
+      "h": 48
+    },
+    {
+      "key": "proj_glider",
+      "file": "proj/glider.svg",
+      "w": 96,
+      "h": 48
+    },
+    {
+      "key": "proj_thunder",
+      "file": "proj/thunder.svg",
+      "w": 96,
+      "h": 48
+    },
+    {
+      "key": "proj_swarm",
+      "file": "proj/swarm.svg",
+      "w": 64,
+      "h": 32
+    },
+    {
+      "key": "proj_avalanche",
+      "file": "proj/avalanche.svg",
+      "w": 112,
+      "h": 64
+    },
+    {
+      "key": "prop_blur",
+      "file": "proj/prop_blur.svg",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "key": "sky_gradient",
+      "file": "bg/sky_gradient.svg",
+      "w": 16,
+      "h": 760
+    },
+    {
+      "key": "cloud_a",
+      "file": "bg/cloud_a.svg",
+      "w": 256,
+      "h": 110
+    },
+    {
+      "key": "cloud_b",
+      "file": "bg/cloud_b.svg",
+      "w": 256,
+      "h": 110
+    },
+    {
+      "key": "cloud_c",
+      "file": "bg/cloud_c.svg",
+      "w": 256,
+      "h": 110
+    },
+    {
+      "key": "hill_far",
+      "file": "bg/hill_far.svg",
+      "w": 1024,
+      "h": 260
+    },
+    {
+      "key": "hill_near",
+      "file": "bg/hill_near.svg",
+      "w": 1024,
+      "h": 220
+    },
+    {
+      "key": "ground_tile",
+      "file": "bg/ground_tile.svg",
+      "w": 256,
+      "h": 160
+    },
+    {
+      "key": "grass_tuft_a",
+      "file": "bg/grass_tuft_a.svg",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "key": "grass_tuft_b",
+      "file": "bg/grass_tuft_b.svg",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "key": "bush_a",
+      "file": "bg/bush_a.svg",
+      "w": 96,
+      "h": 64
+    },
+    {
+      "key": "bush_b",
+      "file": "bg/bush_b.svg",
+      "w": 96,
+      "h": 64
+    },
+    {
+      "key": "dead_tree",
+      "file": "bg/dead_tree.svg",
+      "w": 128,
+      "h": 160
+    },
+    {
+      "key": "sling_fork_back",
+      "file": "sling/fork_back.svg",
+      "w": 160,
+      "h": 220
+    },
+    {
+      "key": "sling_fork_front",
+      "file": "sling/fork_front.svg",
+      "w": 160,
+      "h": 220
+    },
+    {
+      "key": "sling_pouch",
+      "file": "sling/pouch.svg",
+      "w": 48,
+      "h": 36
+    },
+    {
+      "key": "resistance_pennant",
+      "file": "sling/pennant.svg",
+      "w": 64,
+      "h": 96
+    },
+    {
+      "key": "sign_post",
+      "file": "sling/sign_post.svg",
+      "w": 96,
+      "h": 80
+    },
+    {
+      "key": "node_depot",
+      "file": "ui/node_depot.svg",
+      "w": 96,
+      "h": 76
+    },
+    {
+      "key": "node_store",
+      "file": "ui/node_store.svg",
+      "w": 96,
+      "h": 76
+    },
+    {
+      "key": "node_hub",
+      "file": "ui/node_hub.svg",
+      "w": 96,
+      "h": 76
+    },
+    {
+      "key": "node_mega",
+      "file": "ui/node_mega.svg",
+      "w": 96,
+      "h": 76
+    },
+    {
+      "key": "node_ruin",
+      "file": "ui/node_ruin.svg",
+      "w": 96,
+      "h": 76
+    },
+    {
+      "key": "icon_bolt",
+      "file": "ui/icon_bolt.svg",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "key": "icon_coupon",
+      "file": "ui/icon_coupon.svg",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "key": "star_on",
+      "file": "ui/star_on.svg",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "key": "star_off",
+      "file": "ui/star_off.svg",
+      "w": 32,
+      "h": 32
+    }
+  ],
+  "anims": [
+    {
+      "key": "bot_idle",
+      "frames": [
+        "bot_idle_0",
+        "bot_idle_1",
+        "bot_idle_2",
+        "bot_idle_3"
+      ],
+      "fps": 6,
+      "repeat": -1
+    },
+    {
+      "key": "bot_run",
+      "frames": [
+        "bot_run_0",
+        "bot_run_1",
+        "bot_run_2",
+        "bot_run_3",
+        "bot_run_4",
+        "bot_run_5"
+      ],
+      "fps": 12,
+      "repeat": -1
+    },
+    {
+      "key": "bot_panic",
+      "frames": [
+        "bot_panic_0",
+        "bot_panic_1",
+        "bot_panic_2",
+        "bot_panic_3"
+      ],
+      "fps": 10,
+      "repeat": -1
+    },
+    {
+      "key": "bot_fly",
+      "frames": [
+        "bot_fly_0",
+        "bot_fly_1",
+        "bot_fly_2",
+        "bot_fly_3"
+      ],
+      "fps": 12,
+      "repeat": -1
+    },
+    {
+      "key": "bot_pop",
+      "frames": [
+        "bot_pop_0",
+        "bot_pop_1",
+        "bot_pop_2",
+        "bot_pop_3",
+        "bot_pop_4"
+      ],
+      "fps": 14,
+      "repeat": 0
+    },
+    {
+      "key": "bot_burn",
+      "frames": [
+        "bot_burn_0",
+        "bot_burn_1",
+        "bot_burn_2",
+        "bot_burn_3"
+      ],
+      "fps": 8,
+      "repeat": -1
+    },
+    {
+      "key": "boom_small",
+      "frames": [
+        "boom_small_0",
+        "boom_small_1",
+        "boom_small_2",
+        "boom_small_3",
+        "boom_small_4",
+        "boom_small_5",
+        "boom_small_6"
+      ],
+      "fps": 20,
+      "repeat": 0
+    },
+    {
+      "key": "boom_big",
+      "frames": [
+        "boom_big_0",
+        "boom_big_1",
+        "boom_big_2",
+        "boom_big_3",
+        "boom_big_4",
+        "boom_big_5",
+        "boom_big_6",
+        "boom_big_7",
+        "boom_big_8"
+      ],
+      "fps": 18,
+      "repeat": 0
+    },
+    {
+      "key": "shockwave",
+      "frames": [
+        "shockwave_0",
+        "shockwave_1",
+        "shockwave_2",
+        "shockwave_3",
+        "shockwave_4"
+      ],
+      "fps": 22,
+      "repeat": 0
+    },
+    {
+      "key": "flame_small",
+      "frames": [
+        "flame_small_0",
+        "flame_small_1",
+        "flame_small_2",
+        "flame_small_3",
+        "flame_small_4",
+        "flame_small_5"
+      ],
+      "fps": 12,
+      "repeat": -1
+    },
+    {
+      "key": "flame_big",
+      "frames": [
+        "flame_big_0",
+        "flame_big_1",
+        "flame_big_2",
+        "flame_big_3",
+        "flame_big_4",
+        "flame_big_5"
+      ],
+      "fps": 12,
+      "repeat": -1
+    },
+    {
+      "key": "smoke_puff",
+      "frames": [
+        "smoke_puff_0",
+        "smoke_puff_1",
+        "smoke_puff_2",
+        "smoke_puff_3",
+        "smoke_puff_4",
+        "smoke_puff_5"
+      ],
+      "fps": 10,
+      "repeat": 0
+    },
+    {
+      "key": "ember",
+      "frames": [
+        "ember_0",
+        "ember_1",
+        "ember_2"
+      ],
+      "fps": 8,
+      "repeat": -1
+    }
+  ]
+}
