@@ -9,14 +9,15 @@
     <meta name="theme-color" content="#12151b" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%238250BD'/%3E%3Cpath d='M4 12h24v3H4z' fill='%234D2D75'/%3E%3Ctext x='16' y='23' font-family='Arial' font-size='14' font-weight='900' fill='%23F0B23C' text-anchor='middle'%3EOB%3C/text%3E%3C/svg%3E" />
     <title>Order Cancelled — the OMNIBOX siege</title>
-    <script type="module" crossorigin src="./assets/index-Bw_3iGej.js"></script>
+    <script type="module" crossorigin src="./assets/index--prfwcRM.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/phaser-0YPJO2g1.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-DUqiQARU.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-kTncGgyY.css">
   </head>
   <body>
     <div id="app">
       <!-- ══════════ LEFT COLUMN: ARSENAL ══════════ -->
       <aside class="col col--left" id="col-arsenal">
+        <button class="drawer__close" id="btn-arsenal-close" title="Close">✕</button>
         <div class="brand">
           <div class="brand__line1">ORDER</div>
           <div class="brand__line2">CANCELLED!</div>
@@ -47,6 +48,7 @@
             <span id="res-coupons">0</span>
             <span class="chip__plus">+</span>
           </div>
+          <button class="icon-btn icon-btn--mobile" id="btn-arsenal" title="Arsenal">☰</button>
           <button class="icon-btn" id="btn-map" title="Map">🗺</button>
           <button class="icon-btn" id="btn-settings" title="Settings">⚙</button>
         </header>
@@ -104,11 +106,6 @@
         </section>
       </aside>
 
-      <!-- mobile navigation -->
-      <nav class="tabbar" id="tabbar">
-        <button class="tabbar__btn" data-tab="arsenal">ARSENAL</button>
-        <button class="tabbar__btn is-active" data-tab="stage">BATTLE</button>
-      </nav>
     </div>
 
     <!-- ══════════ START SPLASH ══════════ -->
