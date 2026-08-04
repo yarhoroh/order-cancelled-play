@@ -1,0 +1,16 @@
+{
+  "name": "Order Cancelled",
+  "short_name": "Cancelled",
+  "description": "Slingshot demolition game — bring down the OMNIBOX warehouses of Warehousia.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "landscape",
+  "background_color": "#0a0c11",
+  "theme_color": "#12151b",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
