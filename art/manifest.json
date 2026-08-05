@@ -1089,6 +1089,150 @@
       "file": "fort/wall_gate.svg",
       "w": 240,
       "h": 170
+    },
+    {
+      "key": "fort_bell_base",
+      "file": "fort/bell_base.svg",
+      "w": 116,
+      "h": 172
+    },
+    {
+      "key": "fort_bell_dome",
+      "file": "fort/bell_dome.svg",
+      "w": 76,
+      "h": 100
+    },
+    {
+      "key": "fort_bell_tiers",
+      "file": "fort/bell_tiers.svg",
+      "w": 100,
+      "h": 160
+    },
+    {
+      "key": "fort_cath_body",
+      "file": "fort/cath_body.svg",
+      "w": 232,
+      "h": 214
+    },
+    {
+      "key": "fort_cath_domes",
+      "file": "fort/cath_domes.svg",
+      "w": 220,
+      "h": 164
+    },
+    {
+      "key": "fort_gate_arcade",
+      "file": "fort/gate_arcade.svg",
+      "w": 116,
+      "h": 48
+    },
+    {
+      "key": "fort_gate_base",
+      "file": "fort/gate_base.svg",
+      "w": 200,
+      "h": 232
+    },
+    {
+      "key": "fort_gate_clock",
+      "file": "fort/gate_clock.svg",
+      "w": 144,
+      "h": 80
+    },
+    {
+      "key": "fort_gate_spire",
+      "file": "fort/gate_spire.svg",
+      "w": 80,
+      "h": 92
+    },
+    {
+      "key": "fort_gate_tent",
+      "file": "fort/gate_tent.svg",
+      "w": 112,
+      "h": 60
+    },
+    {
+      "key": "fort_palace_body",
+      "file": "fort/palace_body.svg",
+      "w": 420,
+      "h": 156
+    },
+    {
+      "key": "fort_palace_dome",
+      "file": "fort/palace_dome.svg",
+      "w": 68,
+      "h": 118
+    },
+    {
+      "key": "fort_round_crown",
+      "file": "fort/round_crown.svg",
+      "w": 80,
+      "h": 46
+    },
+    {
+      "key": "fort_round_roof",
+      "file": "fort/round_roof.svg",
+      "w": 92,
+      "h": 122
+    },
+    {
+      "key": "fort_round_shaft",
+      "file": "fort/round_shaft.svg",
+      "w": 124,
+      "h": 190
+    },
+    {
+      "key": "fort_square_crown",
+      "file": "fort/square_crown.svg",
+      "w": 76,
+      "h": 42
+    },
+    {
+      "key": "fort_square_roof",
+      "file": "fort/square_roof.svg",
+      "w": 72,
+      "h": 100
+    },
+    {
+      "key": "fort_square_shaft",
+      "file": "fort/square_shaft.svg",
+      "w": 104,
+      "h": 162
+    },
+    {
+      "key": "fort_terem_body",
+      "file": "fort/terem_body.svg",
+      "w": 268,
+      "h": 140
+    },
+    {
+      "key": "fort_terem_roofs",
+      "file": "fort/terem_roofs.svg",
+      "w": 284,
+      "h": 118
+    },
+    {
+      "key": "fort_wall_body",
+      "file": "fort/wall_body.svg",
+      "w": 240,
+      "h": 122
+    },
+    {
+      "key": "fort_wall_merlons",
+      "file": "fort/wall_merlons.svg",
+      "w": 232,
+      "h": 28
+    },
+    {
+      "key": "fort_wallgate_body",
+      "file": "fort/wallgate_body.svg",
+      "w": 240,
+      "h": 122
+    },
+    {
+      "key": "fort_wallgate_merlons",
+      "file": "fort/wallgate_merlons.svg",
+      "w": 232,
+      "h": 28
     }
   ],
   "anims": [
