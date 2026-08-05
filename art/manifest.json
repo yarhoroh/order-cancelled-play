@@ -720,6 +720,198 @@
       "file": "ui/star_off.svg",
       "w": 32,
       "h": 32
+    },
+    {
+      "key": "bot_fall_0",
+      "file": "bot/fall_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_fall_1",
+      "file": "bot/fall_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_fall_2",
+      "file": "bot/fall_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_fall_3",
+      "file": "bot/fall_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_splat_0",
+      "file": "bot/splat_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_splat_1",
+      "file": "bot/splat_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_splat_2",
+      "file": "bot/splat_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_splat_3",
+      "file": "bot/splat_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_splat_4",
+      "file": "bot/splat_4.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_dizzy_0",
+      "file": "bot/dizzy_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_dizzy_1",
+      "file": "bot/dizzy_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_dizzy_2",
+      "file": "bot/dizzy_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_dizzy_3",
+      "file": "bot/dizzy_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_chase_0",
+      "file": "bot/chase_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_chase_1",
+      "file": "bot/chase_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_chase_2",
+      "file": "bot/chase_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_chase_3",
+      "file": "bot/chase_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_chase_4",
+      "file": "bot/chase_4.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_chase_5",
+      "file": "bot/chase_5.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_bump_0",
+      "file": "bot/bump_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_bump_1",
+      "file": "bot/bump_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_bump_2",
+      "file": "bot/bump_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_bump_3",
+      "file": "bot/bump_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_extinguish_0",
+      "file": "bot/extinguish_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_extinguish_1",
+      "file": "bot/extinguish_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_extinguish_2",
+      "file": "bot/extinguish_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_extinguish_3",
+      "file": "bot/extinguish_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_extinguish_4",
+      "file": "bot/extinguish_4.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_wave_0",
+      "file": "bot/wave_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_wave_1",
+      "file": "bot/wave_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_wave_2",
+      "file": "bot/wave_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_wave_3",
+      "file": "bot/wave_3.svg",
+      "w": 64,
+      "h": 64
     }
   ],
   "anims": [
@@ -882,6 +1074,87 @@
       ],
       "fps": 8,
       "repeat": -1
+    },
+    {
+      "key": "bot_fall",
+      "frames": [
+        "bot_fall_0",
+        "bot_fall_1",
+        "bot_fall_2",
+        "bot_fall_3"
+      ],
+      "fps": 10,
+      "repeat": -1
+    },
+    {
+      "key": "bot_splat",
+      "frames": [
+        "bot_splat_0",
+        "bot_splat_1",
+        "bot_splat_2",
+        "bot_splat_3",
+        "bot_splat_4"
+      ],
+      "fps": 12,
+      "repeat": 0
+    },
+    {
+      "key": "bot_dizzy",
+      "frames": [
+        "bot_dizzy_0",
+        "bot_dizzy_1",
+        "bot_dizzy_2",
+        "bot_dizzy_3"
+      ],
+      "fps": 6,
+      "repeat": -1
+    },
+    {
+      "key": "bot_chase",
+      "frames": [
+        "bot_chase_0",
+        "bot_chase_1",
+        "bot_chase_2",
+        "bot_chase_3",
+        "bot_chase_4",
+        "bot_chase_5"
+      ],
+      "fps": 12,
+      "repeat": -1
+    },
+    {
+      "key": "bot_bump",
+      "frames": [
+        "bot_bump_0",
+        "bot_bump_1",
+        "bot_bump_2",
+        "bot_bump_3"
+      ],
+      "fps": 10,
+      "repeat": 0
+    },
+    {
+      "key": "bot_extinguish",
+      "frames": [
+        "bot_extinguish_0",
+        "bot_extinguish_1",
+        "bot_extinguish_2",
+        "bot_extinguish_3",
+        "bot_extinguish_4"
+      ],
+      "fps": 8,
+      "repeat": 0
+    },
+    {
+      "key": "bot_wave",
+      "frames": [
+        "bot_wave_0",
+        "bot_wave_1",
+        "bot_wave_2",
+        "bot_wave_3"
+      ],
+      "fps": 6,
+      "repeat": 0
     }
   ]
 }
