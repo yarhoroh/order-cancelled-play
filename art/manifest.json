@@ -39,7 +39,22 @@
     "concrete": "#B9B2A4",
     "concrete_dark": "#7E786C",
     "red": "#C6402F",
-    "red_dark": "#8A2618"
+    "red_dark": "#8A2618",
+    "brick": "#9E4034",
+    "brick_dark": "#6E2A21",
+    "brick_light": "#C05C46",
+    "stone_white": "#EDE6D6",
+    "stone_shade": "#C4B79C",
+    "stone_deep": "#9E9078",
+    "roof_green": "#2F5D3A",
+    "roof_green_dark": "#1D3E27",
+    "roof_green_light": "#4A8455",
+    "gold": "#E8B233",
+    "gold_dark": "#A9761A",
+    "gold_light": "#FFDF8E",
+    "bronze": "#B08D57",
+    "cream": "#EBD9A0",
+    "cream_dark": "#C9AF6E"
   },
   "notes": "All art is fictional parody. Villain corp = OMNIBOX (purple, OB mark). Map country = Warehousia. Player side = amber consumer resistance. No real brands, flags, places, people or weapons. Enemies are robots. SVGs have a viewBox and no width/height - load with Phaser load.svg({width,height}) using w/h below.",
   "sprites": [
@@ -990,6 +1005,90 @@
       "file": "bot/shrug_3.svg",
       "w": 64,
       "h": 64
+    },
+    {
+      "key": "fort_backdrop",
+      "file": "fort/backdrop.svg",
+      "w": 1700,
+      "h": 620
+    },
+    {
+      "key": "fort_bell_tower",
+      "file": "fort/bell_tower.svg",
+      "w": 140,
+      "h": 440
+    },
+    {
+      "key": "fort_cathedral",
+      "file": "fort/cathedral.svg",
+      "w": 280,
+      "h": 400
+    },
+    {
+      "key": "fort_gate_tower",
+      "file": "fort/gate_tower.svg",
+      "w": 200,
+      "h": 520
+    },
+    {
+      "key": "fort_lantern",
+      "file": "fort/lantern.svg",
+      "w": 36,
+      "h": 90
+    },
+    {
+      "key": "fort_merlon",
+      "file": "fort/merlon.svg",
+      "w": 40,
+      "h": 44
+    },
+    {
+      "key": "fort_palace",
+      "file": "fort/palace.svg",
+      "w": 420,
+      "h": 260
+    },
+    {
+      "key": "fort_spruce",
+      "file": "fort/spruce.svg",
+      "w": 70,
+      "h": 130
+    },
+    {
+      "key": "fort_star",
+      "file": "fort/star.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "fort_terem",
+      "file": "fort/terem.svg",
+      "w": 300,
+      "h": 250
+    },
+    {
+      "key": "fort_tower_round",
+      "file": "fort/tower_round.svg",
+      "w": 140,
+      "h": 366
+    },
+    {
+      "key": "fort_tower_square",
+      "file": "fort/tower_square.svg",
+      "w": 120,
+      "h": 308
+    },
+    {
+      "key": "fort_wall",
+      "file": "fort/wall.svg",
+      "w": 240,
+      "h": 170
+    },
+    {
+      "key": "fort_wall_gate",
+      "file": "fort/wall_gate.svg",
+      "w": 240,
+      "h": 170
     }
   ],
   "anims": [
