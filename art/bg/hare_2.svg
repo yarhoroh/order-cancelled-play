@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44">
+<ellipse cx="30" cy="40" rx="7" ry="1.33" fill="#1B1420" opacity="0.08"/>
+<ellipse cx="18" cy="18" rx="3.1" ry="3.1" fill="#E0B681" stroke="#1B1420" stroke-width="2"/>
+<path d="M20,19 Q13,21 8,24" fill="none" stroke="#1B1420" stroke-width="7.2" stroke-linecap="round"/><path d="M20,19 Q13,21 8,24" fill="none" stroke="#C08A4E" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="8" cy="24" rx="3.4" ry="2.55" fill="#8A5C2E" stroke="#1B1420" stroke-width="1.6"/>
+<ellipse cx="33" cy="17" rx="16" ry="8" fill="#C08A4E" stroke="#1B1420" stroke-width="2.6"/>
+<ellipse cx="45" cy="19" rx="6.5" ry="5.5" fill="#E0B681" opacity="0.9"/>
+<path d="M47,15 Q54,17 60,20" fill="none" stroke="#1B1420" stroke-width="6" stroke-linecap="round"/><path d="M47,15 Q54,17 60,20" fill="none" stroke="#C08A4E" stroke-width="4.2" stroke-linecap="round"/>
+<ellipse cx="60" cy="20" rx="2.8" ry="2.1" fill="#8A5C2E" stroke="#1B1420" stroke-width="1.6"/>
+<circle cx="55" cy="9" r="7.6" fill="#C08A4E" stroke="#1B1420" stroke-width="2.6"/>
+<ellipse cx="61" cy="11" rx="4" ry="3.2" fill="#E0B681" stroke="#1B1420" stroke-width="2.2"/>
+<circle cx="57" cy="7.5" r="1.7" fill="#1B1420"/><circle cx="57.6" cy="6.9" r="0.6" fill="#F5F1E8"/>
+<circle cx="63.5" cy="11.5" r="1.1" fill="#8A2618"/>
+<path d="M56.22,-0.59 L37.96,-1.2 L9.94,2.35 L10.06,3.65 L38.04,2.2 L55.78,4.59 Z" fill="#C08A4E" stroke="#1B1420" stroke-width="2.2" stroke-linejoin="round"/><path d="M56.1,0.83 L37.98,-0.26 L9.97,2.71 L10.03,3.29 L38.02,1.26 L55.9,3.17 Z" fill="#E0B681" stroke="#1B1420" stroke-width="0" stroke-linejoin="round"/><path d="M28.08,0.08 L9.95,2.4 L10.05,3.6 L28.32,2.67 Z" fill="#8A5C2E" stroke="#1B1420" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M52.29,0.42 L34.09,-0.7 L16,0.35 L16,1.65 L33.91,2.7 L51.71,5.58 Z" fill="#C08A4E" stroke="#1B1420" stroke-width="2.2" stroke-linejoin="round"/><path d="M52.13,1.84 L34.04,0.24 L16,0.71 L16,1.29 L33.96,1.76 L51.87,4.16 Z" fill="#E0B681" stroke="#1B1420" stroke-width="0" stroke-linejoin="round"/><path d="M27.7,-0.3 L16,0.4 L16,1.6 L27.7,2.3 Z" fill="#8A5C2E" stroke="#1B1420" stroke-width="1.6" stroke-linejoin="round"/>
+
+</svg>

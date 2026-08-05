@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44">
+<ellipse cx="29" cy="40" rx="15" ry="2.85" fill="#1B1420" opacity="0.3"/>
+<ellipse cx="16" cy="28" rx="3.6" ry="3.6" fill="#E0B681" stroke="#1B1420" stroke-width="2"/>
+<path d="M23,29 Q19,34 17,38" fill="none" stroke="#1B1420" stroke-width="7.2" stroke-linecap="round"/><path d="M23,29 Q19,34 17,38" fill="none" stroke="#C08A4E" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="17" cy="38" rx="3.4" ry="2.55" fill="#8A5C2E" stroke="#1B1420" stroke-width="1.6"/>
+<ellipse cx="30" cy="27" rx="15" ry="8" fill="#C08A4E" stroke="#1B1420" stroke-width="2.6"/>
+<ellipse cx="41" cy="29" rx="6.5" ry="5.5" fill="#E0B681" opacity="0.9"/>
+<path d="M44,27 Q41,33 39,38" fill="none" stroke="#1B1420" stroke-width="6" stroke-linecap="round"/><path d="M44,27 Q41,33 39,38" fill="none" stroke="#C08A4E" stroke-width="4.2" stroke-linecap="round"/>
+<ellipse cx="39" cy="38" rx="2.8" ry="2.1" fill="#8A5C2E" stroke="#1B1420" stroke-width="1.6"/>
+<circle cx="50" cy="20" r="8" fill="#C08A4E" stroke="#1B1420" stroke-width="2.6"/>
+<ellipse cx="57" cy="22" rx="4.2" ry="3.4" fill="#E0B681" stroke="#1B1420" stroke-width="2.2"/>
+<circle cx="52" cy="18.5" r="1.7" fill="#1B1420"/><circle cx="52.6" cy="17.9" r="0.6" fill="#F5F1E8"/>
+<circle cx="60" cy="22.5" r="1.1" fill="#8A2618"/>
+<path d="M51,9.4 L41.86,10.31 L25.92,13.36 L26.08,14.64 L42.14,13.69 L51,14.6 Z" fill="#C08A4E" stroke="#1B1420" stroke-width="2.2" stroke-linejoin="round"/><path d="M51,10.83 L41.94,11.24 L25.96,13.71 L26.04,14.29 L42.06,12.76 L51,13.17 Z" fill="#E0B681" stroke="#1B1420" stroke-width="0" stroke-linejoin="round"/><path d="M36.24,11.41 L25.93,13.4 L26.07,14.6 L36.56,13.99 Z" fill="#8A5C2E" stroke="#1B1420" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M47.82,10.53 L38.3,8.33 L30,9.35 L30,10.65 L37.7,11.67 L46.18,15.47 Z" fill="#C08A4E" stroke="#1B1420" stroke-width="2.2" stroke-linejoin="round"/><path d="M47.37,11.89 L38.13,9.25 L30,9.71 L30,10.29 L37.87,10.75 L46.63,14.11 Z" fill="#E0B681" stroke="#1B1420" stroke-width="0" stroke-linejoin="round"/><path d="M35.2,8.7 L30,9.4 L30,10.6 L35.2,11.3 Z" fill="#8A5C2E" stroke="#1B1420" stroke-width="1.6" stroke-linejoin="round"/>
+
+</svg>

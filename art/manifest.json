@@ -1246,8 +1246,239 @@
       "w": 104,
       "h": 56
     }
+,
+    {
+      "key": "bird_0",
+      "file": "bg/bird_0.svg",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "key": "bird_1",
+      "file": "bg/bird_1.svg",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "key": "bird_2",
+      "file": "bg/bird_2.svg",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "key": "bird_3",
+      "file": "bg/bird_3.svg",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "key": "bat_0",
+      "file": "bg/bat_0.svg",
+      "w": 40,
+      "h": 26
+    },
+    {
+      "key": "bat_1",
+      "file": "bg/bat_1.svg",
+      "w": 40,
+      "h": 26
+    },
+    {
+      "key": "bat_2",
+      "file": "bg/bat_2.svg",
+      "w": 40,
+      "h": 26
+    },
+    {
+      "key": "bat_3",
+      "file": "bg/bat_3.svg",
+      "w": 40,
+      "h": 26
+    },
+    {
+      "key": "sun",
+      "file": "bg/sun.svg",
+      "w": 120,
+      "h": 120
+    },
+    {
+      "key": "moon",
+      "file": "bg/moon.svg",
+      "w": 96,
+      "h": 96
+    }
+,
+    {
+      "key": "hare_0",
+      "file": "bg/hare_0.svg",
+      "w": 64,
+      "h": 44
+    },
+    {
+      "key": "hare_1",
+      "file": "bg/hare_1.svg",
+      "w": 64,
+      "h": 44
+    },
+    {
+      "key": "hare_2",
+      "file": "bg/hare_2.svg",
+      "w": 64,
+      "h": 44
+    },
+    {
+      "key": "hare_3",
+      "file": "bg/hare_3.svg",
+      "w": 64,
+      "h": 44
+    },
+    {
+      "key": "hare_4",
+      "file": "bg/hare_4.svg",
+      "w": 64,
+      "h": 44
+    },
+    {
+      "key": "hare_5",
+      "file": "bg/hare_5.svg",
+      "w": 64,
+      "h": 44
+    },
+    {
+      "key": "fox_0",
+      "file": "bg/fox_0.svg",
+      "w": 80,
+      "h": 44
+    },
+    {
+      "key": "fox_1",
+      "file": "bg/fox_1.svg",
+      "w": 80,
+      "h": 44
+    },
+    {
+      "key": "fox_2",
+      "file": "bg/fox_2.svg",
+      "w": 80,
+      "h": 44
+    },
+    {
+      "key": "fox_3",
+      "file": "bg/fox_3.svg",
+      "w": 80,
+      "h": 44
+    },
+    {
+      "key": "fox_4",
+      "file": "bg/fox_4.svg",
+      "w": 80,
+      "h": 44
+    },
+    {
+      "key": "fox_5",
+      "file": "bg/fox_5.svg",
+      "w": 80,
+      "h": 44
+    },
+    {
+      "key": "dog_0",
+      "file": "bg/dog_0.svg",
+      "w": 76,
+      "h": 44
+    },
+    {
+      "key": "dog_1",
+      "file": "bg/dog_1.svg",
+      "w": 76,
+      "h": 44
+    },
+    {
+      "key": "dog_2",
+      "file": "bg/dog_2.svg",
+      "w": 76,
+      "h": 44
+    },
+    {
+      "key": "dog_3",
+      "file": "bg/dog_3.svg",
+      "w": 76,
+      "h": 44
+    },
+    {
+      "key": "dog_4",
+      "file": "bg/dog_4.svg",
+      "w": 76,
+      "h": 44
+    },
+    {
+      "key": "dog_5",
+      "file": "bg/dog_5.svg",
+      "w": 76,
+      "h": 44
+    }
   ],
   "anims": [
+    {
+      "key": "hare_run",
+      "frames": [
+        "hare_0",
+        "hare_1",
+        "hare_2",
+        "hare_3",
+        "hare_4",
+        "hare_5"
+      ],
+      "fps": 14,
+      "repeat": -1
+    },
+    {
+      "key": "fox_run",
+      "frames": [
+        "fox_0",
+        "fox_1",
+        "fox_2",
+        "fox_3",
+        "fox_4",
+        "fox_5"
+      ],
+      "fps": 13,
+      "repeat": -1
+    },
+    {
+      "key": "dog_run",
+      "frames": [
+        "dog_0",
+        "dog_1",
+        "dog_2",
+        "dog_3",
+        "dog_4",
+        "dog_5"
+      ],
+      "fps": 13,
+      "repeat": -1
+    },
+    {
+      "key": "bird_fly",
+      "frames": [
+        "bird_0",
+        "bird_1",
+        "bird_2",
+        "bird_3"
+      ],
+      "fps": 9,
+      "repeat": -1
+    },
+    {
+      "key": "bat_fly",
+      "frames": [
+        "bat_0",
+        "bat_1",
+        "bat_2",
+        "bat_3"
+      ],
+      "fps": 14,
+      "repeat": -1
+    },
     {
       "key": "bot_idle",
       "frames": [
