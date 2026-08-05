@@ -912,6 +912,84 @@
       "file": "bot/wave_3.svg",
       "w": 64,
       "h": 64
+    },
+    {
+      "key": "bot_boxstuck_0",
+      "file": "bot/boxstuck_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_boxstuck_1",
+      "file": "bot/boxstuck_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_boxstuck_2",
+      "file": "bot/boxstuck_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_boxstuck_3",
+      "file": "bot/boxstuck_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_slip_0",
+      "file": "bot/slip_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_slip_1",
+      "file": "bot/slip_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_slip_2",
+      "file": "bot/slip_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_slip_3",
+      "file": "bot/slip_3.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_slip_4",
+      "file": "bot/slip_4.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_shrug_0",
+      "file": "bot/shrug_0.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_shrug_1",
+      "file": "bot/shrug_1.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_shrug_2",
+      "file": "bot/shrug_2.svg",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "key": "bot_shrug_3",
+      "file": "bot/shrug_3.svg",
+      "w": 64,
+      "h": 64
     }
   ],
   "anims": [
@@ -1155,6 +1233,40 @@
       ],
       "fps": 6,
       "repeat": 0
+    },
+    {
+      "key": "bot_boxstuck",
+      "frames": [
+        "bot_boxstuck_0",
+        "bot_boxstuck_1",
+        "bot_boxstuck_2",
+        "bot_boxstuck_3"
+      ],
+      "fps": 6,
+      "repeat": -1
+    },
+    {
+      "key": "bot_slip",
+      "frames": [
+        "bot_slip_0",
+        "bot_slip_1",
+        "bot_slip_2",
+        "bot_slip_3",
+        "bot_slip_4"
+      ],
+      "fps": 12,
+      "repeat": 0
+    },
+    {
+      "key": "bot_shrug",
+      "frames": [
+        "bot_shrug_0",
+        "bot_shrug_1",
+        "bot_shrug_2",
+        "bot_shrug_3"
+      ],
+      "fps": 5,
+      "repeat": -1
     }
   ]
 }
