@@ -1233,6 +1233,18 @@
       "file": "fort/wallgate_merlons.svg",
       "w": 232,
       "h": 28
+    },
+    {
+      "key": "fort_tank",
+      "file": "fort/tank.svg",
+      "w": 104,
+      "h": 56
+    },
+    {
+      "key": "fort_tank_wreck",
+      "file": "fort/tank_wreck.svg",
+      "w": 104,
+      "h": 56
     }
   ],
   "anims": [
