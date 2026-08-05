@@ -608,13 +608,13 @@
       "key": "hill_far",
       "file": "bg/hill_far.svg",
       "w": 1024,
-      "h": 260
+      "h": 266
     },
     {
       "key": "hill_near",
       "file": "bg/hill_near.svg",
       "w": 1024,
-      "h": 220
+      "h": 226
     },
     {
       "key": "ground_tile",
